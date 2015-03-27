@@ -20,8 +20,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSArray *usersArray = [CCUserData users];
-    NSLog(@"%@", usersArray);
+    self.users = [CCUserData users];
+    NSLog(@"%@", self.users);
     
     
 }
