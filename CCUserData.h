@@ -10,4 +10,7 @@
 
 @interface CCUserData : NSObject
 
++(NSArray *) users;
+
+
 @end

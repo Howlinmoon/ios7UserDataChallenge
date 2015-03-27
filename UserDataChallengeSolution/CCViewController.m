@@ -7,6 +7,7 @@
 //
 
 #import "CCViewController.h"
+#import "CCUserData.h"
 
 @interface CCViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *usersArray = [CCUserData users];
+    NSLog(@"%@", usersArray);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
