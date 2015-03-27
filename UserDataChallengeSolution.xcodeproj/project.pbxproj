@@ -21,6 +21,7 @@
 		966747591AC5BE6E008E06FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9667473B1AC5BE6E008E06FF /* UIKit.framework */; };
 		966747611AC5BE6E008E06FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9667475F1AC5BE6E008E06FF /* InfoPlist.strings */; };
 		966747631AC5BE6E008E06FF /* UserDataChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 966747621AC5BE6E008E06FF /* UserDataChallengeSolutionTests.m */; };
+		9667476E1AC5BE95008E06FF /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9667476D1AC5BE95008E06FF /* CCUserData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9667475E1AC5BE6E008E06FF /* UserDataChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UserDataChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		966747601AC5BE6E008E06FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		966747621AC5BE6E008E06FF /* UserDataChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataChallengeSolutionTests.m; sourceTree = "<group>"; };
+		9667476C1AC5BE95008E06FF /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserData.h; sourceTree = "<group>"; };
+		9667476D1AC5BE95008E06FF /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		9667472B1AC5BE6E008E06FF = {
 			isa = PBXGroup;
 			children = (
+				9667476C1AC5BE95008E06FF /* CCUserData.h */,
+				9667476D1AC5BE95008E06FF /* CCUserData.m */,
 				9667473D1AC5BE6E008E06FF /* UserDataChallengeSolution */,
 				9667475C1AC5BE6E008E06FF /* UserDataChallengeSolutionTests */,
 				966747361AC5BE6E008E06FF /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				966747481AC5BE6E008E06FF /* CCAppDelegate.m in Sources */,
 				966747441AC5BE6E008E06FF /* main.m in Sources */,
+				9667476E1AC5BE95008E06FF /* CCUserData.m in Sources */,
 				9667474E1AC5BE6E008E06FF /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
