@@ -11,5 +11,6 @@
 @interface CCViewController : UIViewController
 
 @property (strong, nonatomic) NSArray *users;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @end
